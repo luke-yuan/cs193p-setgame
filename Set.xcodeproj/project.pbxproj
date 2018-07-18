@@ -11,8 +11,9 @@
 		A39742BD20FC031F00338610 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39742BC20FC031F00338610 /* ViewController.swift */; };
 		A39742C020FC031F00338610 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39742BE20FC031F00338610 /* Main.storyboard */; };
 		A39742C220FC032100338610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A39742C120FC032100338610 /* Assets.xcassets */; };
-		A39742C520FC032100338610 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39742C320FC032100338610 /* LaunchScreen.storyboard */; };
 		A39742D020FC032100338610 /* SetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39742CF20FC032100338610 /* SetTests.swift */; };
+		A39742DB20FC383A00338610 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39742DA20FC383A00338610 /* Card.swift */; };
+		A39742DD20FC397B00338610 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39742DC20FC397B00338610 /* Set.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,11 +32,12 @@
 		A39742BC20FC031F00338610 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A39742BF20FC031F00338610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A39742C120FC032100338610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A39742C420FC032100338610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A39742C620FC032100338610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A39742CB20FC032100338610 /* SetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39742CF20FC032100338610 /* SetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetTests.swift; sourceTree = "<group>"; };
 		A39742D120FC032100338610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A39742DA20FC383A00338610 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		A39742DC20FC397B00338610 /* Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +79,13 @@
 		A39742B920FC031E00338610 /* Set */ = {
 			isa = PBXGroup;
 			children = (
+				A39742DA20FC383A00338610 /* Card.swift */,
 				A39742BA20FC031F00338610 /* AppDelegate.swift */,
 				A39742BC20FC031F00338610 /* ViewController.swift */,
 				A39742BE20FC031F00338610 /* Main.storyboard */,
 				A39742C120FC032100338610 /* Assets.xcassets */,
-				A39742C320FC032100338610 /* LaunchScreen.storyboard */,
 				A39742C620FC032100338610 /* Info.plist */,
+				A39742DC20FC397B00338610 /* Set.swift */,
 			);
 			path = Set;
 			sourceTree = "<group>";
@@ -177,7 +180,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A39742C520FC032100338610 /* LaunchScreen.storyboard in Resources */,
 				A39742C220FC032100338610 /* Assets.xcassets in Resources */,
 				A39742C020FC031F00338610 /* Main.storyboard in Resources */,
 			);
@@ -197,7 +199,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A39742DD20FC397B00338610 /* Set.swift in Sources */,
 				A39742BD20FC031F00338610 /* ViewController.swift in Sources */,
+				A39742DB20FC383A00338610 /* Card.swift in Sources */,
 				A39742BB20FC031F00338610 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,14 +231,6 @@
 				A39742BF20FC031F00338610 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A39742C320FC032100338610 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A39742C420FC032100338610 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
