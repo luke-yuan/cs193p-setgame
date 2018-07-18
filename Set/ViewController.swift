@@ -91,7 +91,7 @@ class ViewController: UIViewController {
             }    
         }
         
-        scoreLabel.text = String(game.score)
+        scoreLabel.text = "Score: " + String(game.score)
         
         if (game.cards.count < 3 || (game.cardsBeingPlayed.count >= 24 && !game.matched())) {
             dealCardsButton.isEnabled = false
